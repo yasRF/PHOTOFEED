@@ -1,0 +1,38 @@
+.h1{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+body {
+    background-color: silver;
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+.container{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.post{
+    background-color: aliceblue;
+    margin-top: 70
+    px;
+    width: 600px;
+}
+
+.post_header div:last-child{
+    display: flex;
+    width: 20%;
+    text-align: center;
+    color:black
+}
+.post_footer{
+    padding: 15px 20px;
+}
+.number{
+    color:grey
+}
